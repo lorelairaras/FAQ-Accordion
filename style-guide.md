@@ -28,3 +28,7 @@ The designs were created to the following widths:
 - Weights: 400, 600, 700
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
+
+Research patterns for building an accessible accordion and try your hardest to make the accordion accessible
+Complete the challenge without using JavaScript
+i will try to not use javascript to make it dynamic
