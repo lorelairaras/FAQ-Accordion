@@ -14,5 +14,3 @@ A responsive FAQ accordion component built with HTML and CSS only (no JavaScript
 
 - Semantic HTML5
 - CSS3 (Flexbox, transitions)
-
-# Currently Ongoing
