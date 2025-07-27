@@ -85,3 +85,49 @@ body {
 .faq-toggle {
   display: none;
 }
+
+.faq-toggle:checked ~ .faq-answer {
+  max-height: 300px;
+  margin-top: 1.25rem;
+}
+
+.faq-toggle:checked + .faq-question .icon-minus {
+  display: block;
+}
+
+.faq-toggle:checked + .faq-question .icon-plus {
+  display: none;
+}
+
+.icon-minus {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url("./assets/images/background-pattern-desktop.svg");
+  }
+
+  .faq-card {
+    padding: 2.5rem;
+    margin-top: 10rem;
+  }
+
+  .faq-header h1 {
+    font-size: 3rem;
+  }
+
+  .faq-question {
+    font-size: 1.1rem;
+  }
+}
